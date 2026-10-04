@@ -1,0 +1,19 @@
+# Install torch first with the CUDA index, e.g.:
+#   uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# Then install the rest:
+#   uv pip install -r requirements.txt
+
+psutil
+huggingface_hub
+transformers
+accelerate
+diffusers
+safetensors
+scipy
+soundfile
+pydub
+
+# Needed only for --animation-mode ai (AnimateDiff real character motion,
+# intended for a bigger GPU e.g. AWS EC2, not the 6GB dev machine):
+imageio
+imageio-ffmpeg

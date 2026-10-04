@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated run artifacts (recreated by running main.py) - not source.
+output/
+
+# Harness/editor local state
+.claude/
